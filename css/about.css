@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+ul{
+    list-style-position: inside;
+}
+/* -------------------------header start---------------------------------- */
+header{
+    height: 40px;
+    padding: 20px 20px 0 50px;
+    background-color: rgb(250, 177, 177);
+}
+
+header img{
+    height:20px;
+
+}
+header nav{ 
+    float:right;
+    padding-right: 50px;
+}
+header nav a{
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+    /* border-radius: 50px; */
+    margin-right: 10px;
+}
+.projects{
+    background-color: rgb(5, 110, 214);
+    color: white;
+}
+.contacts{
+    background-color: lightgrey;
+}
+/* about section */
+section{
+    width: 40%;
+    margin: auto;
+    margin-top: 4%;
+}
+section h2{
+    padding-bottom: 10px;
+}
+/* about box */
+.about-box{
+    width:525px;
+    padding: 15px 50px 15px 50px;
+}
+
+/* skills box */
+.skills{
+    padding:15px 50px 15px 50px;
+    width:525px;
+    margin-right: 200px;
+}
+h3{
+    padding: 5px 0;
+}
+/* education box */
+.education{
+ 
+    width: 525px;
+    height:120px;
+    padding: 20px 50px 20px 50px;
+}
+.exp{
+    margin-left:8.4%;
+    padding: 10px 0 20px 0;
+}
+.connect-me{
+    padding:20px;
+    margin-left: 5%;
+    background-color:rgb(234, 229, 229);
+}
+.connect-me h4{
+    padding: 5px;
+}
+/* footer */
+footer{
+    background-color: black;
+    color:white;
+    padding:20px;
+    margin-top:20px;
+    text-align: center;
+}
+footer p{
+    padding:5px
+}

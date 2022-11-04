@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    background-image: url("../images/yellow.jpg");
+    background-size: cover;
+    scrollbar-width: thin;
+}
+/* -------------------------header start---------------------------------- */
+header{
+
+    height: 40px;
+    padding: 20px 20px 0 50px;
+}
+
+header img{
+    height:20px;
+
+}
+header nav{ 
+    float:right;
+    padding-right: 50px;
+}
+header nav a{
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+    /* border-radius: 50px; */
+    margin-right: 10px;
+}
+.projects{
+    background-color: rgb(5, 110, 214);
+    /* background-color: rgb(235, 173, 80); */
+    color: white;
+}
+.contacts{
+    background-color: lightgrey;
+}
+/* --------------------header end------------------------- */
+/* --------------------section start---------------------- */
+
+section{
+    /* border:1px solid red; */
+    display: inline-block;
+    margin:14% 30% 5% 30%;
+    width: 40%;
+    text-align: center;
+    height: 60;
+}
+section h1{
+    font-size:45px;
+    padding: 15px;
+}
+section h2{
+    font-size: 40px;
+    padding-bottom: 30px;
+    color:rgb(255, 247, 209)
+    /* color:rgb(5, 110, 214); */
+}
+section a{
+    text-decoration: none;
+    padding: 5px 25px;
+    color:black;
+    font-weight: 500;
+    /* background-color: rgb(5, 110, 214); */
+    border: solid 1px rgb(5, 110, 214);
+    border-radius: 15px;
+}
+/* section end */
