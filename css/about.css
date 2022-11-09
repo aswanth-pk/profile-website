@@ -81,6 +81,11 @@ h3{
 .connect-me h4{
     padding: 5px;
 }
+.connect-me h4 a{
+    padding-left: 10px;
+    text-decoration: none;
+    color: black;
+}
 /* footer */
 footer{
     background-color: black;
@@ -91,4 +96,8 @@ footer{
 }
 footer p{
     padding:5px
+}
+footer p a{
+    color:white;
+    text-decoration: none;
 }
